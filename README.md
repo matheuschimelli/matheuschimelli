@@ -1,4 +1,8 @@
-<script> alert("welcome")</script>
+```javascript
+while (true) {
+  console.log("Welcome")
+}
+```
 
 <!--
 **matheuschimelli/matheuschimelli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
