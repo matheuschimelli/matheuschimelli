@@ -1,7 +1,12 @@
-```javascript
-while (true) {
-  console.log("Welcome")
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello World")
 }
+
 ```
 
 <!--
