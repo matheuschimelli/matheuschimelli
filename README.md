@@ -1,10 +1,23 @@
-```go
-package main
+```typescript
+class Profile {
+    get name(): string {
+        return "Matheus Chimelli"
+    }
 
-import "fmt"
+    get skills():string[] {
+        return ["Node.js", "Javascript", "Typescript", "Postgres", "ElasticSearch", "MongoDB", "React", "NextJS","Firebase"]
+    }
 
-func main() {
-	fmt.Println("Hello World")
+    get bio():string {
+        return ``
+    }
+
+    get hireable():boolean {
+        const bioText = this.bio
+        const isHireable = bioText.match(/looking for a job/)
+        if (isHireable && isHireable[0]) return true
+        return false
+    }
 }
 
 ```
